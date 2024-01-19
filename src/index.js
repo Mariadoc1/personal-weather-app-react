@@ -12,5 +12,19 @@ root.render(
   <StrictMode>
     <App />
     <Weather />
+    <footer>
+      This project was coded by{" "}
+      <a href="https://github.com/Mariadoc1" target="_blank" rel="noreferrer">
+        Maria Docherty
+      </a>{" "}
+      and{" "}
+      <a
+        href="https://github.com/Mariadoc1/personal-weather-app-react"
+        target="_blank"
+        rel="noreferrer"
+      >
+        open-sourced on GitHub.
+      </a>
+    </footer>
   </StrictMode>
 );
