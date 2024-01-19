@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +15,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .App-header {
@@ -35,4 +43,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-form-input {
+  background-color: #f5f3fb;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  padding: 15px 20px;
+}
+
+.button {
+  background-color: #885df1;
+  color: #ffff;
+  font-size: 16px;
+  margin-left: 5px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+ul {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 18px;
+  list-style: none;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
 }
